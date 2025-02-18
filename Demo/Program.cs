@@ -9,8 +9,8 @@ namespace Demo
 
             app.MapGet("/", () => "Hello Omar Saad!");
             app.MapGet("/Index", () => "Hello World!");
-            //app.MapControllerRoute(name: "Default", 
-            //    pattern: "Controller/action/id");
+            app.MapControllerRoute(name: "Default", 
+                pattern: "Controller/action/id");
             app.Run();
         }
     }
